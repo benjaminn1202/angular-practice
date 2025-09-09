@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task List</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <nav id="tester">
+            <div class="navHeader">
+                <img src="tasklister-icon.webp">
+                <p>TaskLister</p>
+            </div>
+        </nav>
+
+        <div class="subSection createtaskSubSection">
+            <h1>Create Task</h1>
+            <input type="text" placeholder="Enter task name." id="taskCreation_NameInput">
+            <button class="primaryButton" id="taskCreation_AddButton">Add Task</button>
+        </div>
+
+        <div class="subSection ongoingtasksSubSection">
+            <h1>Ongoing Tasks</h1>
+            <ul id="taskList">
+                
+            </ul>
+        </div>
+
+        <div class="popup popupDeleteTask">
+            <div class="dimmer"></div>
+            <div class="popupContent popupContentEditTask">
+                <h1>Delete This Task?</h1>
+                <p class="deleteTaskHint"></p>
+                <button class="primaryButton" onclick="closePopup()">Cancel</button>
+                <button class="secondaryButton" id="deleteTaskButton">Delete</button>
+            </div>
+        </div>
+
+        <div class="popup popupEditTask">
+            <div class="dimmer"></div>
+            <div class="popupContent popupContentEditTask">
+                <h1>Edit Task</h1>
+                <p>Edit this task.</p>
+                <input type="textbox" placeholder="Enter task name." id="editTaskInput">
+                <button class="secondaryButton" onclick="closePopup()">Cancel</button>
+                <button class="primaryButton" id="editTaskButton">Save</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

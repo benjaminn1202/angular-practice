@@ -1,0 +1,132 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Inter", sans-serif;
+}
+
+body {
+  background-color: #f9f9f9;
+  color: #333;
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+nav {
+  width: 100%;
+  background-color: #343434;
+  padding: 0.75rem;
+}
+
+.subSection {
+  background-color: #fff;
+  width: 100%;
+  box-shadow: 10px 10px 10px -9px rgba(166,166,166,0.75);
+  margin: 2rem 0;
+  padding: 1rem;
+}
+
+.primaryButton {
+  background-color: #343434;
+  color: #e9e9e9;
+  border: 1px solid #343434;
+  padding: 0.40rem;
+  cursor: pointer ;
+  margin-right: 0.5rem;
+}
+
+.secondaryButton {
+  background-color: #e9e9e9;
+  color: #343434;
+  border: 1px solid #343434;
+  padding: 0.40rem;
+  cursor: pointer ;
+  margin-right: 0.5rem;
+}
+
+.navHeader {
+  display: flex;
+  width: auto;
+  justify-items: center;
+  align-items: center;
+}
+
+.navHeader img{
+  width: 2rem;
+}
+
+.navHeader p {
+  font-weight: 600;
+  color: #e9e9e9;
+}
+
+.subSection h1 {
+  font-weight: 600;
+  font-size: 1.5rem;
+  margin-bottom: 0.75rem;
+}
+.subSection input {
+  background-color: #fff;
+  border: 1px solid #343434;
+  padding: 0.40rem;
+}
+
+.subSection ul {
+  list-style-type: none;
+}
+.subSection li {
+  margin-bottom: 1rem;
+}
+.subSection li input {
+  margin-right: 0.5rem;
+}
+
+.popup {
+  width: 100vw;
+  height: 100vh;
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: flex;
+  justify-items: center;
+  align-items: center;
+  justify-content: center;
+  display: none;
+}
+.popup .dimmer {
+  background-color: rgba(0,0,0,0.25);
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1;
+}
+
+.popup .popupContent {
+  background-color: #fff;
+  position: inherit;
+  z-index: 2;
+  box-shadow: 10px 10px 10px -9px rgba(166,166,166,0.75);
+  padding: 1rem;
+  margin-top: 5rem;
+}
+.popup .popupContent h1 {
+  font-weight: 600;
+  font-size: 1.5rem;
+  margin-bottom: 0.5rem;
+}
+.popup .popupContent p {
+  margin-bottom: 1rem;
+}
+.popup .popupContent input {
+  background-color: #fff;
+  border: 1px solid #343434;
+  padding: 0.40rem;
+  width: 100%;
+  margin-bottom: 1rem;
+}
