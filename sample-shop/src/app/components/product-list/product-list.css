@@ -1,0 +1,30 @@
+.productList {
+    width: calc(100% - 2rem);
+    padding: 1rem;
+}
+h1 {
+    margin-left: 1rem;
+}
+
+img {
+    width: 100%;
+}
+.pill {
+    color: #efefef;
+    padding: 0.25rem 0.5rem;
+    border-radius:0.75rem;
+    width: fit-content;
+}
+h2 {
+    color: #fc9b46;
+}
+button {
+    background-color: #fc9b46;
+    border: #fc9b46;
+    color: #efefef;
+    width: 5rem;
+    height: 2rem;
+    font-size: 0.90rem;
+    border-radius: 0.5rem;
+    cursor: pointer;
+}

@@ -1,0 +1,56 @@
+nav {
+    width: 100%;
+    background-color: #efefef;
+    color: #fc9b46;
+    display: flex;
+    align-items: center;
+    justify-content: right;
+}
+nav .navHeader {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    justify-content: left;
+    width: 100%;
+}
+nav .navHeader img {
+    width: 2.5rem;
+    height: 2.5rem;
+    margin: 1rem 0 1rem 1rem;
+}
+nav .navHeader h1 {
+    font-size: 1.5rem;
+}
+
+nav .checkout-button {
+    width: 7rem;
+    height: 2.5rem;
+    justify-self: right;
+    margin-right: 1rem;
+    font-size: 1rem;
+    cursor: pointer;
+    background-color: #fc9b46;
+    border: #fc9b46;
+    color: #efefef;
+    border-radius: 0.75rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+}
+
+nav .back-button {
+    height: 2.5rem;
+    background-color: #efefef;
+    border: #fc9b46 solid 1px;
+    color: #fc9b46;
+    width: 5rem;
+    font-size: 1rem;
+    border-radius: 0.5rem;
+    cursor: pointer;
+    margin-right: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+}

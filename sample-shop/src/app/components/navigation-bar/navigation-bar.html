@@ -1,0 +1,16 @@
+<nav>
+    <div class="navHeader">
+        <img src="sample-shop-logo.png">
+        <h1>StoreName</h1>
+    </div>
+
+    @if (currentUrl() === '/') {
+        <a class="checkout-button" routerLink="/checkoutPage" routerLinkActive="active">
+            Checkout
+        </a>
+    } @else{
+        <a class="back-button" routerLink="/" routerLinkActive="active">
+            Back
+        </a>
+    }
+</nav>

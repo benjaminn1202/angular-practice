@@ -1,0 +1,80 @@
+﻿Learner Dashboard
+Navigation Bar
+    - Dashboard | My Groups | Explore Public Groups | Leaderboard | Profile | 
+
+
+Rewards
+
+
+Quick Stats
+    - Total Points
+    - Current Rank (Group + Global)
+
+
+Achievements & Badges
+  - Certificates Showcase
+  - Button: Join Group
+    - Input: Group Code (for private groups)
+    - Explore Public Groups (list with Join option)
+
+
+Group Page (View Mode for Learners)
+Group Info
+    - Name
+    - Description
+    - Subject Tags
+    - Teacher Owner
+
+
+Member List (read-only)
+
+
+Quizzes in Group
+    - List of Available Quizzes
+    - Status: Active / Completed / Upcoming
+    - Button: Join Quiz
+
+
+Explore Public Groups Page
+  - List of all Public Groups
+  - Display:
+    - Group Name
+    - Description
+    - Subject Tags
+    - Teacher Owner
+    - Join Button
+
+
+Take Quiz Page
+  - Pre-Quiz Info
+    - Quiz Title
+    - Teacher Info
+    - Time Limit
+    - Attempts Allowed
+    - Points
+  - Quiz Interface
+    - Countdown Timer
+    - Questions (MCQ/Essay/TF)
+    - Navigation: Next/Previous
+  - Anti-Cheat
+    - Auto-reset on tab switch
+    - Shuffle on reset
+  - Completion
+    - Auto-submit on timeout
+    - Button: Submit Quiz
+
+
+My Analytics Page (Learner)
+Graphs
+    - Performance Over Time
+    - Subject-Wise Scores
+    - Comparison vs Group Average
+
+
+Quiz History
+    - List of past quizzes + scores
+
+
+Improvement Insights
+    - Frequently Missed Topics
+    - Suggested Focus Areas

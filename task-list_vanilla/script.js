@@ -66,6 +66,7 @@ const loadTasks = () => {
         // Edit task button functions
         editButton.className = 'primaryButton';
         editButton.innerText = 'Edit';
+        document.querySelector('#editTaskInput').value = task.name;
         editTaskButton.onclick = () => {
             editTask(document.querySelector('#editTaskInput'), task.id);
         }

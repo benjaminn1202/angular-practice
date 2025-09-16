@@ -1,0 +1,12 @@
+<div class="container w-100">
+    <app-navigation-bar></app-navigation-bar>
+
+    <div class="container rounded bg-white ">
+        @if (currentUrl() === '/home-page') {
+            <img src="students-raising-hands.jpg" class="w-100 rounded mb-4">
+            <h1 class="fs-3">Home Page</h1>
+            <p>This is the home page</p>
+        }
+        <router-outlet></router-outlet>
+    </div>
+</div>

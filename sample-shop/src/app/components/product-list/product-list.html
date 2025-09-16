@@ -1,0 +1,31 @@
+<h1>Products</h1>
+
+<div class="productList">
+@for ( product of products ; track product.id ) {
+    
+    <img [src]="product.image">
+
+    <p>${{ product.price }}</p>
+
+    @if (product.onStock) {
+        <p class="pill" style="background-color: rgb(51, 221, 60)">On Stock</p>
+    } @else {
+        <p class="pill" style="background-color: rgb(216, 56, 56)" >Out-of-Stock</p>
+    }
+
+    <h2>
+        <a [title]="product.name + ' details'">
+            {{ product.name }}
+        </a>
+    </h2>
+
+    <p *ngIf="product.description">
+        {{ product.description }}
+    </p>
+
+    <button type="button" (click)="share()">Share</button>
+
+    <app-product-alerts [product]="product" (notify)="onNotify()"></app-product-alerts>
+}
+
+</div>
