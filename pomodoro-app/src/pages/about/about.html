@@ -1,0 +1,18 @@
+<div class="container">
+    <div class="content">
+        <form [formGroup]="messageUsForm">
+            <div class="formInput">
+                <label>Email</label>
+                <input type="email" formControlName="email">
+            </div>
+
+            <div>
+                @if (messageUsForm.get('email')?.errors?.['required']) {
+                    <small>Email is required.</small>
+                } @if (messageUsForm.get('email')?.errors?.['email']) {
+                    <small>Enter a valid email.</small>
+                }
+            </div>
+        </form>
+    </div>
+</div>

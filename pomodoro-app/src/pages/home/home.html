@@ -1,0 +1,22 @@
+<div class="container">
+    <div class="content">
+        <div class="timerControls">
+            <a class="secondaryButton" (click)="stopTimer(); setRemainingTime(25*60)" routerLink="/home/pomodoro" routerLinkActive="active">Pomodoro</a>
+            <a class="secondaryButton" (click)="stopTimer(); setRemainingTime(5*60)" routerLink="/home/short-break" routerLinkActive="active">Short Break</a>
+            <a class="secondaryButton" (click)="stopTimer(); setRemainingTime(15*60)" routerLink="/home/long-break" routerLinkActive="active">Long Break</a>
+        </div>
+        <div class="timerContainer">
+            <h1 class="timerText" id="timerText">{{ formatTime(remaining) }}</h1>
+            
+            <div class="timerControls">
+                @if(!isTimerRunning) {
+                    <button class="primaryButton" (click)="startCountdown(remaining)">Start</button>
+                } @else {
+                    <button class="secondaryButton" (click)="stopTimer()">Stop</button>
+                }
+            </div>
+
+
+        </div>
+    </div>
+</div>

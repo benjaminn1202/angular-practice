@@ -1,0 +1,40 @@
+.content .timerControls {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    width: 40%;
+    margin: 2rem auto;
+    min-width: 400px;
+}
+.content .timerControls a {
+    width: 100%;
+}
+.content .timerControls .active {
+    background-color: #F25A3C;
+    color: #fefefe;
+}
+
+.content .timerContainer {
+    margin: 1rem auto;
+    box-shadow: 0 0 5px 5px #eee;
+    padding: 0.1rem 0 3rem 0;
+    width: 40%;
+    border-radius: 0.5rem;
+    min-width: 400px;
+}
+.content .timerContainer .timerText {
+    text-align: center;
+    color: #F25A3C;
+    margin: 3rem 0;
+} 
+.content .timerContainer .timerControls {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    margin: auto;
+    width: 100%;
+}
+.content .timerContainer .timerControls button {
+    width: 80%;
+}
