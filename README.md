@@ -2,9 +2,9 @@
 
 This repository contains multiple Angular projects I worked on while learning and applying Angular concepts.  
 
-## 📌 Important Note for Supervisor
+## 📌 Note
 Among the projects here, **`pomodoro-app/`** is my **final project**.  
-All other projects are small test projects created to practice Angular fundamentals such as routing, directives, forms, and project setup.  
+All other projects are small test projects created to practice Angular fundamentals such as routing, directives, forms, and project setup.
 
 ---
 
