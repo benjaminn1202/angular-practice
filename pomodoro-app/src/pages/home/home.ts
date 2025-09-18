@@ -59,10 +59,7 @@ export class Home {
         clearInterval(this.interval);
         this.isTimerRunning = false;
 
-        let alarm = this.playSound();
-        alarm.play();
-        alert("⏰ Time's up! Take a break.");
-        alarm.stop();
+        this.playSound();
 
         if (this.router.url === '/home/pomodoro') {
           this.setRemainingTime(25*60);
@@ -97,12 +94,16 @@ export class Home {
   }
 
   playSound() {
+
+
     const sound = new Howl({
       src: ['vine-boom.mp3'],
-      autoplay: false,
+      autoplay: true,
       volume: 1.0,
     });
 
-    return sound;
+    alert("⏰ Time's up! Take a break.");
+
+    sound.stop();
   }
 }

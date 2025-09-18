@@ -6,13 +6,50 @@
                 <input type="email" formControlName="email">
             </div>
 
-            <div>
-                @if (messageUsForm.get('email')?.errors?.['required']) {
-                    <small>Email is required.</small>
-                } @if (messageUsForm.get('email')?.errors?.['email']) {
-                    <small>Enter a valid email.</small>
-                }
+            <div class="formInput">
+                <label>Subject</label>
+                <input type="text" formControlName="subject">
             </div>
+
+            <div class="formInput">
+                <label>Message</label>
+                <textarea formControlName="subject"></textarea> 
+            </div>
+
+            @if(messageUsForm.get('email')?.touched && messageUsForm.get('email')?.invalid || messageUsForm.get('subject')?.touched && messageUsForm.get('subject')?.invalid || messageUsForm.get('message')?.touched && messageUsForm.get('message')?.invalid) {
+                <div class="errors">
+                    <h2>There are invalid fields!</h2>
+
+                    <ul>
+                        @if (messageUsForm.get('email')?.errors?.['required']) {
+                            <li><small>Email is required.</small></li>
+                        }
+                        @if (messageUsForm.get('email')?.errors?.['email']) {
+                            <li><small>Enter a valid email.</small></li>
+                        }
+                        @if (messageUsForm.get('subject')?.errors?.['required']) {
+                            <li><small>Subject is required.</small></li>
+                        }
+                        @if (messageUsForm.get('subject')?.errors?.['minlength']) {
+                            <li><small>Subject should have more than 3 characters.</small></li>
+                        }
+                        @if (messageUsForm.get('subject')?.errors?.['maxlength']) {
+                            <li><small>Subject should not exceed 100 characters.</small></li>
+                        }
+                        @if (messageUsForm.get('message')?.errors?.['required']) {
+                            <li><small>Message is required.</small></li>
+                        }
+                        @if (messageUsForm.get('message')?.errors?.['minlength']) {
+                            <li><small>Message should have more than 10 characters.</small></li>
+                        }
+                        @if (messageUsForm.get('message')?.errors?.['maxlength']) {
+                            <li><small>Message should not exceed 1000 characters.</small></li>
+                        }
+                    </ul>
+                </div>
+            }
+
+            <button type="submit" class="primaryButton">SUbmit</button>
         </form>
     </div>
 </div>
