@@ -1,4 +1,4 @@
-RJSX
-Pipe
+RJSX (/)
+Pipe (/)
 Services (/)
 HTTP (/)
