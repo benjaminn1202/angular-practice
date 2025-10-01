@@ -20,13 +20,13 @@ It demonstrates the use of Angular concepts such as **components, services, pipe
 ## 📸 Screenshots
 
 ### Blog List Page
-![Blog List](./listPage.png)
+![Blog List](public/listPage.png)
 
 ### Create Blog Page
-![Create Blog](./createPage.png)
+![Create Blog](public/createPage.png)
 
 ### Update Blog Page
-![Update Blog](./updatePage.png)
+![Update Blog](public/updatePage.png)
 
 ---
 
