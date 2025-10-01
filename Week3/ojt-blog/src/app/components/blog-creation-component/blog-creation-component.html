@@ -1,0 +1,15 @@
+<section>
+    <h1>Create Post</h1>
+
+    <form [formGroup]="addPostForm" (ngSubmit)="onCreate()">
+        <label>Title</label>
+        <input type="text" formControlName="title" placeholder="Blog Title Here...">
+
+        <label>Subtitle</label>
+        <input type="text" formControlName="subtitle" placeholder="Blog Subtitle Here...">
+
+        <label>Content</label>
+        <textarea formControlName="content" placeholder="Blog content here..."></textarea>
+        <button type="submit" [disabled]="saving">Add Blog Post</button>
+    </form>
+</section>

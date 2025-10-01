@@ -1,0 +1,17 @@
+<section>
+    <h1>Blog Posts</h1>
+
+    @for(blogModel of blogModels | sortByDatePipe: 'created' ; track $index) {
+        <div class="blog-post-card">
+            <h2>{{ blogModel.title }}</h2>
+            <h4>{{ blogModel.subtitle }}</h4>
+            <p>{{ blogModel.content }}</p>
+            <div class="pill-container">
+                <span style="background-color: rgba(44, 201, 212, 0.27);"> {{ blogModel.created | date: 'longDate' }} </span>
+                <span style="background-color: rgba(131, 44, 212, 0.27);"> {{ blogModel.uuid }}</span>
+            </div>
+            <button class="delete-button" (click)="onDelete(blogModel.id)">🗑️</button>
+            <button class="edit-button" [routerLink]="['/update', blogModel.id]">✏️</button>
+        </div>
+    }
+</section>

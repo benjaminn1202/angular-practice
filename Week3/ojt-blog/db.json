@@ -1,0 +1,92 @@
+{
+  "blog-models": [
+    {
+      "id": "1",
+      "uuid": "550e8400-e29b-41d4-a716-446655440000",
+      "title": "Day 1",
+      "subtitle": "Orientation and Setup",
+      "content": "Attended company and department orientation, setup development environment, and created a sample Angular project.",
+      "created": "2025-09-08T07:57:00.000Z"
+    },
+    {
+      "id": "2",
+      "uuid": "550e8400-e29b-41d4-a716-446655440001",
+      "title": "Day 2",
+      "subtitle": "JavaScript To-Do App",
+      "content": "Developed a simple to-do list website using basic JavaScript functions and DOM manipulation.",
+      "created": "2025-09-09T07:41:00.000Z"
+    },
+    {
+      "id": "3",
+      "uuid": "550e8400-e29b-41d4-a716-446655440002",
+      "title": "Day 3",
+      "subtitle": "Angular Directives",
+      "content": "Practiced Angular development focusing on the use and implementation of directives for components.",
+      "created": "2025-09-10T07:55:00.000Z"
+    },
+    {
+      "id": "4",
+      "uuid": "550e8400-e29b-41d4-a716-446655440003",
+      "title": "Day 4",
+      "subtitle": "Angular Routing",
+      "content": "Continued Angular practice, specifically learning and implementing routing for navigation between application pages.",
+      "created": "2025-09-11T07:38:00.000Z"
+    },
+    {
+      "id": "5",
+      "uuid": "550e8400-e29b-41d4-a716-446655440004",
+      "title": "Day 5",
+      "subtitle": "Directives and Routing",
+      "content": "Practiced more about Angular directives and routing, focusing on router links and routing modules.",
+      "created": "2025-09-15T07:38:00.000Z"
+    },
+    {
+      "id": "6",
+      "uuid": "550e8400-e29b-41d4-a716-446655440005",
+      "title": "Day 6",
+      "subtitle": "Pomodoro Timer Project",
+      "content": "Started creating a Pomodoro Timer mini project applying all previous Angular learnings.",
+      "created": "2025-09-16T07:43:00.000Z"
+    },
+    {
+      "id": "7",
+      "uuid": "550e8400-e29b-41d4-a716-446655440006",
+      "title": "Day 7",
+      "subtitle": "Pomodoro Development",
+      "content": "Continued developing the Pomodoro application, improving functionality and refining its basic timer features.",
+      "created": "2025-09-17T07:38:00.000Z"
+    },
+    {
+      "id": "8",
+      "uuid": "550e8400-e29b-41d4-a716-446655440007",
+      "title": "Day 8",
+      "subtitle": "Pomodoro Enhancement",
+      "content": "Further enhanced the Pomodoro app, practicing code structure and user interface improvements.",
+      "created": "2025-09-18T07:50:00.000Z"
+    },
+    {
+      "id": "9",
+      "uuid": "550e8400-e29b-41d4-a716-446655440008",
+      "title": "Day 9",
+      "subtitle": "OJT Mini Blog Project",
+      "content": "Started an Angular OJT Mini Blog project, practicing RxJS, services, pipes, and HTTP.",
+      "created": "2025-09-24T07:48:00.000Z"
+    },
+    {
+      "id": "10",
+      "uuid": "550e8400-e29b-41d4-a716-446655440009",
+      "title": "Day 10",
+      "subtitle": "Angular HTTP Practice",
+      "content": "Worked on OJT Mini Blog project, focusing on integrating and practicing Angular HTTP requests.",
+      "created": "2025-09-25T07:45:00.000Z"
+    },
+    {
+      "id": "11",
+      "uuid": "550e8400-e29b-41d4-a716-446655440010",
+      "title": "Day 11",
+      "subtitle": "Blog Project Progress",
+      "content": "Continued OJT Mini Blog project, applying RxJS, HTTP requests, and Angular services extensively.",
+      "created": "2025-09-30T07:52:00.000Z"
+    }
+  ]
+}

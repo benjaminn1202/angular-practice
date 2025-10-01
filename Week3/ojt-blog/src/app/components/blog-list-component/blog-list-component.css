@@ -1,0 +1,58 @@
+section {
+    width: 50vw;
+}
+
+section h1 {
+    margin: 1rem 0;
+}
+
+section .blog-post-card {
+    width: 100%;
+    padding: 1rem 0;
+    margin: 2rem 0;
+    display: flex;
+    flex-direction: column;
+    gap: 0.25rem;
+    border: 1px solid #bcbcbc;
+    position: relative;
+}
+
+section .blog-post-card .delete-button {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    padding: 0.25rem;
+    margin: 1rem;
+    border-radius: 4px;
+    border: 1px solid #454545;
+    cursor: pointer;
+}
+
+section .blog-post-card .edit-button {
+    position: absolute;
+    bottom: 0;
+    right: 2rem;
+    padding: 0.25rem;
+    margin: 1rem;
+    border-radius: 4px;
+    border: 1px solid #454545;
+    cursor: pointer;
+}
+
+section .blog-post-card h2, section .blog-post-card h4, section .blog-post-card p {
+    margin-left: 1rem;
+}
+
+section .blog-post-card .pill-container {
+    display: flex;
+    gap: 0.5rem;
+    margin-top: 1rem;
+    margin-left: 1rem;
+}
+
+section .blog-post-card .pill-container span {
+    padding: 0.40rem 12px;
+    width: max-content;
+    border-radius: 12rem;
+    font-size: 12px;
+}
